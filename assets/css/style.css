@@ -53,7 +53,7 @@ body {
 
 .welcome-container {
     
-    background: url("../images/explosion.jpg") no-repeat 35% fixed;
+    background: url("../images/explosion.jpg") no-repeat 85% fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -93,6 +93,10 @@ body {
     box-shadow: red;
 }
 
+.band-image-container {
+    padding: 0;
+}
+
 .about {
     display: flex;
     align-items: center;
@@ -101,6 +105,40 @@ body {
     position: relative;    
 }
 
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+    color: gray;
+    padding: 32px 16px;
+    font-weight: 700;
+}
+
+.band {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.band-member {
+    
+    margin: 10px;
+    background-color: blue;
+}
+
+.band-member-image {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-color: purple;
+}
+
+.band-member-bio {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-color: greenyellow;
+}
 
 
 /* ------------------------------------------------ Special styles */
@@ -204,7 +242,7 @@ footer a:hover {
     }
 
     .welcome-container {
-        background-position: 20% ;
+        background-position: 95% ;
     }
 }
 
@@ -215,6 +253,6 @@ footer a:hover {
     }
 
     .welcome-container {
-        background-position: 5% ;
+        background-position: 95% ;
     }
 }
