@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+header {
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* ------------------------------------------------ Navbar */
+
+.navbar-custom {
+    background-color: black;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.fa-bars {
+    color: red;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: red;
+    float: left;
+    font-size: 20px;
+}
+
+.navbar-custom .member {
+    color: gray;
+}
+
+.logo {
+    background: url(../images/RUD-logo-nav.png);
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50px;
+    float: left;
+}
+
+/* ------------------------------------------------ Special styles */
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/* ------------------------------------------------ Buttons */
+.btn-signup {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 120px;
+    float: right;
+    margin-left: 20px;
+}
+
+.btn--red {
+    color: black;
+    background-color: red;
+    border-color: red;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #b32101;
+    border-color: #b32101;
+}
+
+/* ------------------------------------------------ Footer */
+
+footer {
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    min-height: 100px;
+}
+
+footer a {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+.follow li a i {
+    width: 35px;
+    height: 35px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 23px;
+    background: red;
+    text-align: center;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+}
+
+.follow li a i:hover {
+    background: gray;
+    color: red;
+}
+
+#footer-edit {
+    padding: 20px;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .logo {
+        width: 40%;
+    }
+}
