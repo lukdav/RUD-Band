@@ -43,6 +43,29 @@ body {
     float: left;
 }
 
+/* ------------------------------------------------ Welcome */
+.container {
+    margin: 0;
+}
+
+.welcome-container {
+    height: 80vh;
+
+    background: url("../images/explosion.jpg") no-repeat 35% fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 /* ------------------------------------------------ Special styles */
 
 .inline-block {
@@ -77,6 +100,7 @@ body {
 /* ------------------------------------------------ Footer */
 
 footer {
+    padding: 0;
     background-color: black;
     color: red;
     font-size: 20px;
@@ -113,9 +137,21 @@ footer a:hover {
     -o-transition: all 0.45s ease-in-out;
 }
 
+
 .follow li a i:hover {
     background: gray;
     color: red;
+}
+
+.follow {
+    height: 50px;
+    margin: 0;
+}
+
+.list-inline-item {
+    padding: 0;
+    width: 35px;
+    height: 35px;
 }
 
 #footer-edit {
@@ -126,9 +162,13 @@ footer a:hover {
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 576px) {
     .logo {
         width: 60%;
+    }
+
+    .welcome-container {
+        background-position: 20% ;
     }
 }
 
@@ -136,5 +176,9 @@ footer a:hover {
 @media screen and (min-width: 992px) {
     .logo {
         width: 40%;
+    }
+
+    .welcome-container {
+        background-position: 5% ;
     }
 }
