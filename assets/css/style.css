@@ -12,6 +12,7 @@ body {
 
 .navbar-custom {
     background-color: black;
+    padding: 0;
 }
 
 .navbar-nav {
@@ -36,6 +37,8 @@ body {
 .logo {
     background: url(../images/RUD-logo-nav.png);
     width: 80%;
+    margin-right: 0;
+    margin-left: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -49,8 +52,7 @@ body {
 }
 
 .welcome-container {
-    height: 80vh;
-
+    
     background: url("../images/explosion.jpg") no-repeat 35% fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -58,6 +60,17 @@ body {
     -o-background-size: cover;
     
     margin: 0;
+}
+
+/* ------------------------------------------------ Headings */
+
+.page-header {
+    margin: auto;
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    color: red;
 
     display: flex;
     align-items: center;
@@ -65,6 +78,30 @@ body {
 
     position: relative;
 }
+
+.header-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ------------------------------------------------ About */
+
+.band-image { 
+    width: 100%;
+    padding: 20px 20px;
+    vertical-align: middle;
+    box-shadow: red;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;    
+}
+
+
 
 /* ------------------------------------------------ Special styles */
 
@@ -136,7 +173,6 @@ footer a:hover {
     -webkit-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
 }
-
 
 .follow li a i:hover {
     background: gray;
