@@ -6,6 +6,7 @@ header {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
 }
 
 /* ------------------------------------------------ Navbar */
@@ -113,6 +114,8 @@ body {
 }
 
 .band {
+    padding: 0;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,23 +124,43 @@ body {
 }
 
 .band-member {
-    
-    margin: 10px;
+    width: 90%;
+    margin: 0;
     background-color: blue;
 }
 
 .band-member-image {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    background-size: contain;
     background-color: purple;
 }
 
+.tom {
+    background: url(../images/tom.jpg) no-repeat 50% 20%;
+}
+
+.elliott {
+    background: url(../images/elliott.jpg) no-repeat 30% 20%;
+}
+
+.matt {
+    background: url(../images/matt.jpg) no-repeat 30% 20%;
+}
+
+.jamie {
+    background: url(../images/jamie.jpg) no-repeat 50% 5%;
+}
+
 .band-member-bio {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
+    width: 100%;
+    margin: 0;
     background-color: greenyellow;
+}
+
+.band-member-bio p {
+    margin: 0;
 }
 
 
@@ -255,4 +278,16 @@ footer a:hover {
     .welcome-container {
         background-position: 95% ;
     }
+}
+
+@media screen and (min-width: 2300px) {
+    .band-member {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: relative;
+    }
+
+
 }
