@@ -33,6 +33,7 @@ body {
 
 .navbar-custom .member {
     color: gray;
+    margin-top: 10px;
 }
 
 .logo {
@@ -45,22 +46,6 @@ body {
     background-size: contain;
     min-height: 50px;
     float: left;
-}
-
-/* ------------------------------------------------ Welcome */
-.container {
-    margin: 0;
-}
-
-.welcome-container {
-    
-    background: url("../images/explosion.jpg") no-repeat 85% fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    
-    margin: 0;
 }
 
 /* ------------------------------------------------ Headings */
@@ -83,6 +68,61 @@ body {
 .header-container {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+/* ------------------------------------------------ Welcome */
+.container {
+    margin: 0;
+}
+
+.welcome-container {
+    
+    background: url("../images/explosion.jpg") no-repeat 85% fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    margin: 0;
+}
+
+.album-call {
+    max-width: 50%;
+}
+
+/* ------------------------------------------------ Reviews */
+
+.reviews {
+    padding: 0;
+    margin-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    position: relative;
+}
+
+.reviews a {
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.reviews a:hover {
+    color: red;
+}
+
+.review-text {
+    max-width: 250px;
+    width: 100%;
+    margin: 0 20px 30px 20px;
+    padding: 0;
+    background: transparent;
 }
 
 /* ------------------------------------------------ About */
@@ -137,7 +177,6 @@ body {
     height: 400px;
     margin: 0;
     background-size: contain;
-    background-color: purple;
 }
 
 .tom {
@@ -181,7 +220,7 @@ body {
     border-radius: 5px;
     width: 120px;
     float: right;
-    margin-left: 20px;
+    margin: 10px 10px 10px 20px;
 }
 
 .btn--red {
@@ -258,7 +297,9 @@ footer a:hover {
     padding: 20px;
 }
 
-
+.modal-content {
+    background: lightgray;
+}
 
 
 
@@ -280,6 +321,11 @@ footer a:hover {
 
     .welcome-container {
         background-position: 95% ;
+    }
+
+    .review-text {
+        margin: 10px 40px 40px 40px;
+        max-width: 270px;
     }
 }
 
