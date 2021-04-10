@@ -87,6 +87,10 @@ body {
 
 /* ------------------------------------------------ About */
 
+.band-container {
+    background-color: gray;
+}
+
 .band-image { 
     width: 100%;
     padding: 20px 20px;
@@ -115,7 +119,7 @@ body {
 
 .band {
     padding: 0;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +130,6 @@ body {
 .band-member {
     width: 90%;
     margin: 0;
-    background-color: blue;
 }
 
 .band-member-image {
@@ -156,7 +159,8 @@ body {
 .band-member-bio {
     width: 100%;
     margin: 0;
-    background-color: greenyellow;
+    margin-left: 1rem;
+    color: black;
 }
 
 .band-member-bio p {
@@ -280,13 +284,17 @@ footer a:hover {
     }
 }
 
-@media screen and (min-width: 2300px) {
+@media screen and (min-width: 1200px) {
     .band-member {
         display: flex;
         align-items: center;
         justify-content: center;
         
         position: relative;
+    }
+
+    .band {
+        margin-bottom: 70px;
     }
 
 
