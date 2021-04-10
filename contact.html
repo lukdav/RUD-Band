@@ -50,22 +50,32 @@
 
       <!-- Welcome -->
       <section class="container-fluid welcome-container">
-        <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">New album!</h1>
-                    <hr class="block-divider">
-                    <p class="lead">Get it now</p>
-                    <button class="btn btn-success">iTunes
-                      <i class="fab fa-itunes-note" aria-hidden="true"></i>
-                    </button>
-                    <button class="btn btn-success">Spotify 
-                      <i class="fa fa-spotify" aria-hidden="true"></i>
-                    </button>
-                </section>
-            </div>
+        <div class="header-container">
+          <h2 class="text-uppercase page-header">Contact Us</h2>
+        </div>
+        <div class="contact">
+          <div>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+              Want to book us? Fill out the details below and we'll get back to you!
+              <div>
+                <label for="name-field">Name:</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name">
+              </div>
+              <div>
+                <label for="email-field">Email:</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email">
+              </div>
+              <div>
+                <label for="request">Your request:</label>
+                <br>
+                <textarea id="request" name="request"></textarea>
+              </div>
+              <button type="submit">Send</button>
+            </form>
           </div>
+
+        </div>
+
 
       </section>
 

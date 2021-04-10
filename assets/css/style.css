@@ -50,6 +50,18 @@ body {
 
 /* ------------------------------------------------ Headings */
 
+.album-header {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .page-header {
     margin: auto;
     height: 60px;
@@ -70,6 +82,9 @@ body {
     padding-bottom: 30px;
 }
 
+
+
+
 /* ------------------------------------------------ Welcome */
 .container {
     margin: 0;
@@ -87,7 +102,7 @@ body {
 }
 
 .album-call {
-    max-width: 50%;
+    max-width: 35%;
 }
 
 /* ------------------------------------------------ Reviews */
@@ -206,6 +221,63 @@ body {
     margin: 0;
 }
 
+/* ------------------------------------------------ Media */
+
+.photo-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin-bottom: ;
+
+  }
+
+  #photo img {
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .videos {
+      background-color: gray;
+      margin: auto;
+      text-align: center;
+
+  }
+
+  #video-container {
+      padding-bottom: 30px;
+      max-width: 992px;
+      width: 100%;
+      height: auto;
+      
+  }
+
+/* ------------------------------------------------ Contact */
+
+.contact {
+    width: 80%;
+    background-color: gray;
+    text-align: center;
+}
+
+#name-field,
+#email-field,
+#request {
+    width: 80%;
+}
+
+
+
 /* ------------------------------------------------ Special styles */
 
 .inline-block {
@@ -311,6 +383,11 @@ footer a:hover {
     .welcome-container {
         background-position: 95% ;
     }
+
+    #photo {
+        column-count: 2;
+      }
+
 }
 
 
@@ -327,6 +404,10 @@ footer a:hover {
         margin: 10px 40px 40px 40px;
         max-width: 270px;
     }
+
+    #photo {
+        column-count: 3;
+      }
 }
 
 @media screen and (min-width: 1200px) {
@@ -341,6 +422,10 @@ footer a:hover {
     .band {
         margin-bottom: 70px;
     }
+
+    #photo {
+        column-count: 4;
+      }
 
 
 }
