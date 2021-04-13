@@ -62,6 +62,12 @@ body {
     position: relative;
 }
 
+.album-header img {
+    border-radius: 25%;
+    border-width: 40px;
+    border-color: rgba(0, 0, 0, 0.5)
+}
+
 .page-header {
     margin: auto;
     height: 60px;
@@ -92,17 +98,32 @@ body {
 
 .welcome-container {
     
-    background: url("../images/explosion.jpg") no-repeat 85% fixed;
+    background: url("../images/explosion.jpg") no-repeat 85%;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     
     margin: 0;
+    padding: 0;
 }
 
 .album-call {
-    max-width: 35%;
+    max-width: 300px;
+    padding: 0;
+    right: 0;
+    position: relative;
+    margin: auto;
+}
+
+
+
+.album-text {
+    max-width: 60%;
+    height: auto;
+    left: -40px;
+    border-top-right-radius: 90%;
+    
 }
 
 /* ------------------------------------------------ Reviews */
