@@ -63,9 +63,8 @@ body {
 }
 
 .album-header img {
-    border-radius: 25%;
-    border-width: 40px;
-    border-color: rgba(0, 0, 0, 0.5)
+    border-radius: 20px;
+    box-shadow: 0 0 20px 20px black;
 }
 
 .page-header {
@@ -75,6 +74,7 @@ body {
     background-color: black;
     text-align: center;
     color: red;
+    
 
     display: flex;
     align-items: center;
@@ -87,6 +87,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 
 
@@ -106,27 +107,32 @@ body {
     
     margin: 0;
     padding: 0;
+
+    overflow: hidden;
+
+}
+
+.welcome-container .jumbotron {
+    padding: 1rem;
 }
 
 .album-call {
     max-width: 300px;
     padding: 0;
-    right: 0;
     position: relative;
     margin: auto;
+    margin-bottom: 30px;
 }
-
-
 
 .album-text {
     max-width: 60%;
     height: auto;
-    left: -40px;
-    border-top-right-radius: 90%;
-    
+    border-top-right-radius: 60%;
 }
 
 /* ------------------------------------------------ Reviews */
+
+
 
 .reviews {
     padding: 0;
@@ -189,8 +195,11 @@ body {
 .jumbotron {
     background: rgba(0, 0, 0, 0.5);
     color: gray;
-    padding: 32px 16px;
     font-weight: 700;
+}
+
+.about .jumbotron {
+    padding: 2rem 1rem;
 }
 
 .band {

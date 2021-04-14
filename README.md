@@ -141,6 +141,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ---
 
+## Bugs
+
+The heading blur (box-shadow) could not be styled using an id or class in the style.css file. The problem was resolved using a direct style on the element in the html files however this is not ideal and will be further investigated.
+
 ## Deployment
 
 This project was developed on [Gitpod](https://gitpod.io/) using the [VS Code](https://code.visualstudio.com/) IDE. It was committed to git and pushed to [Github](https://github.com/) using the built-in Gitpod function.
