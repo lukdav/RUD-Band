@@ -4,6 +4,7 @@ header {
     margin: 0;
 }
 
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
@@ -294,16 +295,26 @@ body {
 
 /* ------------------------------------------------ Contact */
 
+#contact-container {
+    min-height: 80vh;
+}
+
 .contact {
-    width: 80%;
     background-color: gray;
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    padding: 1rem;
+}
+
+.contact-input {
     text-align: center;
 }
 
 #name-field,
 #email-field,
 #request {
-    width: 80%;
+    width: 95%;
+    margin: 0.5rem auto;
 }
 
 
@@ -353,7 +364,7 @@ footer a {
     font-size: 20px;
     color: gray;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -webkit-transition: all 0.45s ease-in-out;
@@ -391,13 +402,20 @@ footer a:hover {
 
 .list-inline-item {
     padding: 0;
+    margin: 0;
     width: 35px;
     height: 35px;
 }
 
-#footer-edit {
-    padding: 20px;
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
 }
+
+.footer-edit .container-fluid {
+    padding-top: 20px 0;
+}
+
+/* ------------------------------------------------ Modal */
 
 .modal-content {
     background: lightgray;
@@ -417,6 +435,9 @@ footer a:hover {
     #photo {
         column-count: 2;
       }
+    
+    .contact {
+       margin: 8rem auto;
 
 }
 

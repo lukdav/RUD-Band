@@ -49,34 +49,32 @@
 
 
       <!-- Welcome -->
-      <section class="container-fluid welcome-container">
+      <section id="contact-container" class="container-fluid welcome-container">
         <div class="header-container">
           <h2 class="text-uppercase page-header" style="
           box-shadow: 0 0 8px 8px black;">Contact Us</h2>
         </div>
+        
         <div class="contact">
-          <div>
             <form action="https://formdump.codeinstitute.net" method="POST">
-              Want to book us? Fill out the details below and we'll get back to you!
-              <div>
-                <label for="name-field">Name:</label>
-                <input id="name-field" type="text" name="full_name" placeholder="Your name">
+              <h4>
+                Want to book us? 
+              </h4>
+              <p>Fill out the details below and we'll get back to you!</p>
+              <div class="contact-input">
+                <div>
+                  <input id="name-field" type="text" name="name" placeholder="Name">
+                </div>
+                <div>
+                  <input id="email-field" type="email" name="email" placeholder="Email">
+                </div>
+                <div>
+                  <textarea id="request" name="request" placeholder="Your request" rows="8"></textarea>
+                </div>
+                <button type="submit">Send</button>
               </div>
-              <div>
-                <label for="email-field">Email:</label>
-                <input id="email-field" type="email" name="email" placeholder="Your email">
-              </div>
-              <div>
-                <label for="request">Your request:</label>
-                <br>
-                <textarea id="request" name="request"></textarea>
-              </div>
-              <button type="submit">Send</button>
             </form>
           </div>
-
-        </div>
-
 
       </section>
 
