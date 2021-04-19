@@ -146,8 +146,10 @@ body {
 
 .tour-table {
     font-size: 1rem;
+    width: 95%;
+    max-width: 900px;
     background-color: gray;
-    margin: 1rem;
+    margin: 0 auto 1rem auto;
 }
 
 /* ------------------------------------------------ Reviews */
