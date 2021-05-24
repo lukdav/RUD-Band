@@ -119,6 +119,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - W3C testing for the code.
 - CSS testing
+    W3C CSS Validator was used to test for errors. The test found several small errors and were quickly corrected or deleted. The successful test result can be found [here](http://jigsaw.w3.org/css-validator/validator$link)
 - Lighthouse (Dev Tools)
 - User Stories
 
