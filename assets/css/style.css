@@ -303,16 +303,15 @@ body {
       background-color: gray;
       margin: auto;
       text-align: center;
-
-  }
-
-  #video-container {
       padding-bottom: 30px;
-      max-width: 992px;
-      width: 100%;
-      height: auto;
-      
   }
+
+  .embed-responsive {
+    margin: 30px;
+    margin-bottom: 0;
+    width: auto;
+}
+
 
 /* ------------------------------------------------ Contact */
 
