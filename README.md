@@ -1,13 +1,6 @@
-# Test to check repository has been branched
-
-
 # Rapid Unscheduled Disassembly - Band Website
-One or two paragraphs providing an overview of your project.
 
 I will plan, code and implement a website for a fictional band. The website will be a central hub of information for everything regarding the band's activities.
-
---------  Essentially, this part is your sales pitch. --------
----
 
 ## UX
 
@@ -19,27 +12,21 @@ The website will have a target audience of existing fans, new fans and event org
 
 - Event organisers will be able to contact the band via a form, for enquiries on availability and to start the booking process.
 
-
-
--------- Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. --------
-
--------- In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure: --------
-
 #### User Stories
 
 - "I have been a fan of RUD since the beginning and want to know when they are playing my hometown next so I don't miss the chance to buy tickets."
 
-- "I have just heard of this band through Facebook and liked their sound. I want to know more about them and see hear more songs."
+- "I have just heard of this band through Facebook and liked their sound. I want to know more about them and see/hear more songs."
 
 - "As the Event Manager for the new Swansea Arena, I would like to book the band for Arena's launch. I have a specific query and would like a way to contact the band or their manager."
 
--------- As a user type, I want to perform an action, so that I can achieve a goal.
+---
 
 #### Mockups
 
-Three webpages were first developed using a wireframe to assertain how the layout of the website will fit together.
+Three webpages were first developed using a hand-drawn wireframe to assertain how the layout of the website will fit together.
 
-Following this, mockups of the three webpages were constructed.
+Following this, mockups of the three webpages were constructed as follows:
 
 Home Page (top)
 ![Home Page - Top](assets/mockups/home-top.png)
@@ -62,7 +49,6 @@ Media Page (Bottom)
 ---
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 #### Existing Features
 
@@ -83,16 +69,17 @@ The Media page:
 - A selection of photographs from live shows will give the user a feel of the band's level of performance.
 - Two videos of live performances will be included to give the user direct access to content.
 
-
-#### Yet to be Implemented
 The Contact page:
-- Has yet to be addressed but is planned to be completed in the future.
-- It will include a method of contacting the band and its management via a contact form.
-- Contact details of Management may also be included.
+- It will provide a method of contacting the band and its management via a contact form.
 
 Sign Up button:
-- A sign up to become a member may be included to enhance the user experience by providing exclusive content.
+- A sign up to become a member is included on larger devices to enhance the user experience by providing exclusive content upon becoming a member.
 - The sign up form will open in a modal.
+
+#### Yet to be Implemented
+
+Sign up form:
+- The sign up form will also be provided on mobile devices.
 
 A Member's page:
 - will provide exclusive content to users who have signed up.
@@ -101,44 +88,81 @@ A Member's page:
 ---
 
 ## Technologies Used
-- [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 - [Microsoft Word](https://www.microsoft.com/en-gb/microsoft-365/word) was used to construct the mockups as the ability to add text, shapes, pictures, colour and effects is useful in getting a detailed idea of layout.
 - [Gitpod](https://gitpod.io/) is used as an online IDE as a platform on which to code.
 - [Namecheap](https://www.namecheap.com/logo-maker/app/) was used to create the band's logo.
 - [VS Code](https://code.visualstudio.com/) is used by Gitpod as it's IDE.
 - [Boostrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-- HTML5 is a markup language has been used to structure and present the content of the webpage.
+- HTML5 is a markup language and has been used to structure and present the content of the webpage.
 - CSS3 (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.
 - [JavaScript](https://www.javascript.com/) is a high-level programming language and has been used to add a small amount of interactivity.
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ---
 
 ## Testing
 
-- W3C testing for the code.
-- CSS testing
-    W3C CSS Validator was used to test for errors. The test found several small errors and were quickly corrected or deleted. The successful test result can be found [here](http://jigsaw.w3.org/css-validator/validator$link)
-- Lighthouse (Dev Tools)
-- User Stories
+1. W3C testing for the code.
+- Each page of the website was checked independently by copying  and then pasting its html code into the validator. The result often returned errors. Some were consistent across all pages and were easily rectified. Others however were more specific and difficult to correct. An example of such an occurrence was how the "button must not appear as a descendant of the a element". This was rectified by styling the anchor element with the same class as the button to be used, but not using the button element.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+2. CSS testing
+- W3C CSS (Jigsaw) Validator was used to test for errors. The test found several small errors and were quickly corrected or deleted if surplus. The successful test result can be found [here](http://jigsaw.w3.org/css-validator/validator$link).
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+3. Lighthouse (Dev Tools)
+A report was conducted for a mobile device, and returned the following scores:
+- Performance - 77%
+- Accessibility - 93%
+- Best Practices - 80%
+- SEO - 89%
+
+There are many things that could be optimised, such as adding a "rel=noopener" to each link for security reasons. All advisories will be considered and acted upon.
+
+4. User Stories
+- The first user story is addressed as the website includes a list of upcoming gigs with a link to an external ticket site.
+- The second user story is addressed in the 'About' and 'Media' pages, which provide more information about the band and give examples of live performances for new fans to hear.
+- The final user story is fulfilled with the contact page. It provides a method of contacting the band and/or its management in order to begin the booking process.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Navigation & Footer:
+- Ensure all navigation links load to the correct pages, including the home link connected to the band's logo.
+- Test each link in the footer to ensure it takes the user to the correct internal or external page (About, Download & Social Media links).
+- Resize the screen to ensure the nav bar collapses to a button on smaller devices and the 'Sign UP' button also disappears.
+- Resize the screen to ensure the 'About' section of the footer disappears on smaller devices.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Home Page:
+- Go to the "Home" page.
+- Resize the screen to ensure the background of the 'Welcome' section is structured correctly at various sizes. 
+- Click on the links of the 'New Album' to ensure the correct page is loaded.
+- Resize the screen to ensure the layout of the reviews changes as required for various screen sizes.
+- Click the 'Full Review' links to check the correct page is loaded.
+- Resize the screen to ensure the 'Location column' of the tour table disappears at smaller screen sizes.
+- Click each 'Tickets' link to ensure the user is taken to the correct site.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+About Page:
+- Go to the "About" page.
+- Resize the screen to ensure the layout of the 'Origins' section changes accordingly between in-line and vertical placement.
+- Click the 'here' link (for tickets) to ensure the user is taken to the correct destination.
+- Resize the screen to check the layout of 'The Band' section changes as required; structured vertically on small devices, vertical 4x4 on medium devices and inline 4x4 on larger devices.
+
+Media Page:
+- Go to the "Media" page.
+- Resize screen to ensure the photograph's layout changes according to screen size; 1 column for extra small screens, 2 colums for small screens, 3 columns for medium screens and 4 columns for large screens.
+- Test the videos load correctly and work as intended in the browser, including links to the original video.
+
+Contact Page:
+- Go to the "Contact" page.
+- Try to submit the empty form and verify that an error message about the required fields appears.
+- Try to submit the form with an invalid email address and verify that a relevant error message appears.
+- Try to submit the form with all inputs valid and verify that a success message appears.
+
+Modal:
+- Click on the 'Sign Up' button to ensure the modal appears.
+- Try to submit the empty form and verify that an error message about the required fields appears.
+- Try to submit the form with an invalid email address and verify that a relevant error message appears.
+- Try to submit the form with an incorrect repeated password and verify that a relevant error message appears.
+- Try to submit the form with all inputs valid and verify that a success message appears.
+
+Please note the Modal still requires verification to be addressed.
 
 ---
 
