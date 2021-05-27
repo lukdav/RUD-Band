@@ -114,7 +114,7 @@ A report was conducted for a mobile device, and returned the following scores:
 - Best Practices - 80%
 - SEO - 89%
 
-There are many things that could be optimised, such as adding a "rel=noopener" to each link for security reasons. All advisories will be considered and acted upon.
+There are many things that could be optimised, such as adding a "rel=noopener" to each link for security reasons. All advisories will be considered and acted upon if necessary.
 
 4. User Stories
 - The first user story is addressed as the website includes a list of upcoming gigs with a link to an external ticket site.
@@ -162,13 +162,13 @@ Modal:
 - Try to submit the form with an incorrect repeated password and verify that a relevant error message appears.
 - Try to submit the form with all inputs valid and verify that a success message appears.
 
-Please note the Modal still requires verification to be addressed.
+Please note, the modal still requires verification for 'repeated password' to be addressed. This will require javascript to confirm password inputs match.
 
 ---
 
 ## Bugs
 
-The heading blur (box-shadow) could not be styled using an id or class in the style.css file. The problem was resolved using a direct style on the element in the html files however this is not ideal and will be further investigated.
+The heading 'blur' (box-shadow) could not be styled using an id or class in the style.css file. The problem was resolved using a direct style on the element in the html files, however this is not ideal and will be further investigated.
 
 ## Deployment
 
