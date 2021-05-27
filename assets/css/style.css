@@ -167,10 +167,14 @@ body {
     position: relative;
 }
 
+.review-container {
+    background-color: gray;
+}
+
 .reviews a {
     text-decoration: none;
     text-align: center;
-    color: gray;
+    color: black;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
