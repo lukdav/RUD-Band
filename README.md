@@ -46,40 +46,42 @@ Media Page (top)
 Media Page (Bottom)
 ![Media Page - Bottom](assets/mockups/media-bottom.png)
 
+The decision to include a contact page (and form) was decided following the construction of the mockups. It was felt unnecessary to design a mockup for the contact page as it would use similar background and layouts.
+
 ---
 
 ## Features
 
-#### Existing Features
+### Existing Features
 
 Every page will have the same navigation bar at the top and footer at the bottom.
 
 The Home page:
-- a welcome promoting the new album. Links will allow users to download the album from external sites.
-- Reviews section will give an insight into the reception from professional journalists.
-- A Tour Schedule will allow users to view dates and locations of upcoming live show with a link to buy tickets on an extarnal site. 
+- A welcome promoting the new album. Links will allow users to download the album from external sites.
+- 'Reviews' section will give an insight into the reception from professional journalists.
+- A 'Tour' Schedule will allow users to view dates and locations of upcoming live shows with a link to buy tickets from an extarnal site. 
 
 The About page:
-- will include a brief history of the band, from its origins to its present success.
-- has a picture of the band together to give the user an idea of the band's line-up.
-- Each member of the band will have a short biography to explain their band role, history and influences.
+- Will include a brief history of the band, from its origins to its present progress/successes.
+- Has a picture of the band together to give the user an idea of the band's line-up.
+- Each member of the band will have a short biography to explain their role in the band, their history and influences.
 - Each band member will have a profile picture to accompany the biography to give the user further information.
 
 The Media page:
-- A selection of photographs from live shows will give the user a feel of the band's level of performance.
-- Two videos of live performances will be included to give the user direct access to content.
+- Will include a selection of photographs from live shows to give the user a feel of the band's level of performance.
+- Will also include two videos of live performances to give the user direct access to content.
 
 The Contact page:
-- It will provide a method of contacting the band and its management via a contact form.
+- Will provide a method of contacting the band and its management via a contact form.
 
-Sign Up button:
-- A sign up to become a member is included on larger devices to enhance the user experience by providing exclusive content upon becoming a member.
+The Sign Up button:
+- Will appear on larger devices to encourage users to become a member to enhance the user experience by providing exclusive content.
 - The sign up form will open in a modal.
 
-#### Yet to be Implemented
+### Yet to be Implemented
 
-Sign up form:
-- The sign up form will also be provided on mobile devices.
+Sign up form/modal:
+- Will also be provided on smaller/mobile devices.
 
 A Member's page:
 - will provide exclusive content to users who have signed up.
@@ -92,7 +94,7 @@ A Member's page:
 - [Gitpod](https://gitpod.io/) is used as an online IDE as a platform on which to code.
 - [Namecheap](https://www.namecheap.com/logo-maker/app/) was used to create the band's logo.
 - [VS Code](https://code.visualstudio.com/) is used by Gitpod as it's IDE.
-- [Boostrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Boostrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) was used for frameworks and general code templates.
 - HTML5 is a markup language and has been used to structure and present the content of the webpage.
 - CSS3 (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.
 - [JavaScript](https://www.javascript.com/) is a high-level programming language and has been used to add a small amount of interactivity.
@@ -102,10 +104,27 @@ A Member's page:
 ## Testing
 
 1. W3C testing for the code.
-- Each page of the website was checked independently by copying  and then pasting its html code into the validator. The result often returned errors. Some were consistent across all pages and were easily rectified. Others however were more specific and difficult to correct. An example of such an occurrence was how the "button must not appear as a descendant of the a element". This was rectified by styling the anchor element with the same class as the button to be used, but not using the button element.
+- Each page of the website was checked independently by copying  and then pasting its html code into the validator. The result often returned errors. Some were consistent across all pages and were easily rectified. Others however were more specific and difficult to correct. An example of such an occurrence was how the validator returned the error: "button must not appear as a descendant of the a element". This was rectified by styling the anchor element with the same class as the button to be used, but not using the button element.
+- Screenshots of the validator were taken after testing the code:
+
+index.html
+![index.html](assets/validation/index.html.png)
+
+about.html
+![about.html](assets/validation/about.html.png)
+
+media.html
+![media.html](assets/validation/media.html.png)
+
+contact.html
+![contact.html](assets/validation/contact.html.png)
+
 
 2. CSS testing
-- W3C CSS (Jigsaw) Validator was used to test for errors. The test found several small errors and were quickly corrected or deleted if surplus. The successful test result can be found [here](http://jigsaw.w3.org/css-validator/validator$link).
+- W3C CSS (Jigsaw) Validator was used to test for errors. The test found several small errors and were quickly corrected or deleted if surplus. The successful test result is shown in the following image:
+
+style.css
+![style.css](assets/validation/style.css.png)
 
 3. Lighthouse (Dev Tools)
 A report was conducted for a mobile device, and returned the following scores:
@@ -121,7 +140,7 @@ There are many things that could be optimised, such as adding a "rel=noopener" t
 - The second user story is addressed in the 'About' and 'Media' pages, which provide more information about the band and give examples of live performances for new fans to hear.
 - The final user story is fulfilled with the contact page. It provides a method of contacting the band and/or its management in order to begin the booking process.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+## Individual Page Testing 
 
 Navigation & Footer:
 - Ensure all navigation links load to the correct pages, including the home link connected to the band's logo.
@@ -210,12 +229,9 @@ Further reading and troubleshooting on cloning a repository can be found [here](
 
 ## Credits
 
-#### Content
-The text for section Y was copied from the Wikipedia article Z
-
 #### Media
-As this is a fiction band's website, all images and videos on this site are of various different bands.
-The photos used in this site were obtained using google free image search (creative commons licences) and can be found at the following links:
+As this is a fictional band's website, all images and videos on this site are of various different bands.
+The photos used in this site were obtained using a Google 'free image search' (under a creative commons licence) and can be found at the following links:
 - [band1](https://en.wikipedia.org/wiki/File:American_Hard_Rock_band,_Alpha_Centauri,_2012.jpg)
 - [band2](https://commons.wikimedia.org/wiki/File:Archim%C3%A8de_rock_band.jpg)
 - [band3](https://www.flickr.com/photos/tshrinivasan/20752903484)
