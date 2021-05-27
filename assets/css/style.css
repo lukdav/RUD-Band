@@ -209,6 +209,14 @@ body {
     padding: 0;
 }
 
+.ticket-here {
+    color: red;
+}
+
+.ticket-here:hover {
+    color: #b32101;
+}
+
 .about {
     display: flex;
     align-items: center;
@@ -397,7 +405,7 @@ footer a {
 }
 
 footer a:hover {
-    color: orange;
+    color: #b32101;
 }
 
 .follow li a i {
