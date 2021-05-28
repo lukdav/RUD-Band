@@ -187,7 +187,8 @@ Please note, the modal still requires verification for 'repeated password' to be
 
 ## Bugs
 
-The heading 'blur' (box-shadow) could not be styled using an id or class in the style.css file. The problem was resolved using a direct style on the element in the html files, however this is not ideal and will be further investigated.
+- The heading 'blur' (box-shadow) could not be styled using an id or class in the style.css file. The problem was resolved using a direct style on the element in the html files, however this is not ideal and will be further investigated.
+- A small white gap appears below the footer on screen sizes smaller than 992px. This is believed to be due to the responsive adjustment of the contents of the footer but it was unable to be resolved before submition. This will be further investigated. 
 
 ## Deployment
 
