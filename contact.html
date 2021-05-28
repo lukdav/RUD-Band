@@ -14,64 +14,94 @@
     <title>Rapid Unscheduled Disassembly - Contact</title>
   </head>
   <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-custom">
-            <a class="navbar-brand logo" href="index.html"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="fa fa-bars"></i></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-2">
-                <li class="nav-item">
-                  <a class="nav-link navbar-text" href="about.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navbar-text" href="media.html">Media</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link navbar-text" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="d-none d-lg-inline-block">
-              <p class="navbar-text member my-auto"><i>Become a member!</i></p>
-              <button class="btn btn-signup btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
-          </div>
-          </nav>
-    </header>
-    
-      <!-- Welcome -->
-      <section id="contact-container" class="container-fluid welcome-container">
-        <div class="header-container">
-          <h2 class="text-uppercase page-header" style="
-          box-shadow: 0 0 8px 8px black;">Contact Us</h2>
-        </div>
-        
-        <div class="contact">
-            <form action="https://formdump.codeinstitute.net" method="POST">
-              <h4>
-                Want to book us? 
-              </h4>
-              <p>Fill out the details below and we'll get back to you!</p>
-              <div class="contact-input">
-                <div>
-                  <input id="name-field" type="text" name="name" placeholder="Name" required>
-                </div>
-                <div>
-                  <input id="email-field" type="email" name="email" placeholder="Email" required>
-                </div>
-                <div>
-                  <textarea id="request" name="request" placeholder="Your request" rows="8" required></textarea>
-                </div>
-                <button type="submit">Send</button>
+    <div id="page-container">
+      <div id="content-wrap">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-custom">
+              <a class="navbar-brand logo" href="index.html"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa fa-bars"></i></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-2">
+                  <li class="nav-item">
+                    <a class="nav-link navbar-text" href="about.html">About<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar-text" href="media.html">Media</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link navbar-text" href="contact.html">Contact</a>
+                  </li>
+                </ul>
               </div>
-            </form>
+              <div class="d-none d-lg-inline-block">
+                <p class="navbar-text member my-auto"><i>Become a member!</i></p>
+                <button class="btn btn-signup btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+            </div>
+          </nav>
+        </header>
+      
+        <!-- Welcome -->
+        <section id="contact-container" class="container-fluid welcome-container">
+          <div class="header-container">
+            <h2 class="text-uppercase page-header" style="
+            box-shadow: 0 0 8px 8px black;">Contact Us</h2>
           </div>
+          
+          <div class="contact">
+              <form action="https://formdump.codeinstitute.net" method="POST">
+                <h4>
+                  Want to book us? 
+                </h4>
+                <p>Fill out the details below and we'll get back to you!</p>
+                <div class="contact-input">
+                  <div>
+                    <input id="name-field" type="text" name="name" placeholder="Name" required>
+                  </div>
+                  <div>
+                    <input id="email-field" type="email" name="email" placeholder="Email" required>
+                  </div>
+                  <div>
+                    <textarea id="request" name="request" placeholder="Your request" rows="8" required></textarea>
+                  </div>
+                  <button type="submit">Send</button>
+                </div>
+              </form>
+            </div>
 
-      </section>
+            <table class="manager-table table">
+              <tbody>
+                <tr>
+                  <th scope="row">Manager</th>
+                  <td>James Murphy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Email</th>
+                  <td>j.murphy@blindinglights.com</td>
+                </tr>
+                <tr>
+                  <th scope="row">Phone</th>
+                  <td>01792 638492</td>
+                </tr>
+                <tr>
+                  <th scope="row">Address</th>
+                  <td>
+                    <p>Blinding Light Production</p>
+                    <p>173 The Kingsway</p>
+                    <p>Swansea</p>
+                    <p>SA1 5HW</p>
+                  </td>
+                </tr>
+                
+              </tbody>
+            </table>
 
-    <footer class="container-fluid">
+        </section>
+      </div>
+
+    <footer id="footer" class="container-fluid">
       <div class="row" id="footer-edit">
         <div class="d-none d-lg-block col-lg-4 text-center">
           <h4>About</h4>
@@ -179,6 +209,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous">
     </script>
+  </div>
 
 </body>
 
